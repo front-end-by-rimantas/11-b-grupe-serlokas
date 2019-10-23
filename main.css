@@ -1,27 +1,55 @@
 body {
     background-color: #EAEBED;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 main {
-    background-color: red;
+    display: inline-block;
     width: 50%;
     margin-top: 40px;
     margin-left: 25%;
 }
     img {
-        background-color: blueviolet;
+        display: inline-block;
+        width: 35%;
+        float: left;
     }
     div {
-        background-color: orange;
-        width: 50%;
         display: inline-block;
+        width: 50%;
+        float: right;
+        text-align: center;
     }
         h1 {
-
+            display: inline-block;
+            width: 100%;
+            font-size: 80px;
         }
         p {
-
+            display: inline-block;
+            width: 100%;
+            font-size: 30px;
         }
         a {
-
+            display: inline-block;
+            background-color: #676E8B;
+            color: #fff;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
         }
+
+
+/*
+sventa marija:
+
+div {
+    display: inline-block;      visada
+    width: 50%;                 visada, pagal poreiki
+    float: left;                kai keli vienoje eileje
+}
+*/
